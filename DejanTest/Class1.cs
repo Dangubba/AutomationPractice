@@ -9,7 +9,5 @@ namespace DejanTest
     public class Class1
     {
 
-
-
     }
 }

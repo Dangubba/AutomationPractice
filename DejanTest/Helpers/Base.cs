@@ -27,7 +27,6 @@ namespace DejanTest.Helpers
             Driver.Url = url;
         }
 
-
         //[AfterScenario]
 
         //public static void AfterScenario()
