@@ -19,14 +19,12 @@ namespace DejanTest.Helpers
         public static void BeforeScenario()
 
         {
-
             Driver = new ChromeDriver();
             Driver.Manage().Window.Maximize();
 
             var url = ConfigurationManager.AppSettings["uat"];
 
             Driver.Url = url;
-
         }
 
 

@@ -69,10 +69,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Features\ElementsDisplayedOnEvents.feature.cs">
+    <Compile Include="Features\ElementDisplayedOnEvents.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ElementsDisplayedOnEvents.feature</DependentUpon>
+      <DependentUpon>ElementDisplayedOnEvents.feature</DependentUpon>
     </Compile>
     <Compile Include="Features\SpecFlowFeature1.feature.cs">
       <AutoGen>True</AutoGen>
@@ -92,9 +92,9 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
-    <None Include="Features\ElementsDisplayedOnEvents.feature">
+    <None Include="Features\ElementDisplayedOnEvents.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
-      <LastGenOutput>ElementsDisplayedOnEvents.feature.cs</LastGenOutput>
+      <LastGenOutput>ElementDisplayedOnEvents.feature.cs</LastGenOutput>
     </None>
     <None Include="Features\SpecFlowFeature1.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

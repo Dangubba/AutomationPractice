@@ -6,10 +6,6 @@ using TechTalk.SpecFlow;
 
 namespace DejanTest.Steps
 {
-
-
-    
-
     [Binding]
     public class ElementsDisplayedOnEventsSteps : Base
     {
